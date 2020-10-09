@@ -1,4 +1,4 @@
-# [dotenv-linter.github.io](https://dotenv-linter.github.io)
+# ⚡️[dotenv-linter.github.io](https://dotenv-linter.github.io)
 
 ## Build and run
 
