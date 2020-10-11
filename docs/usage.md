@@ -101,3 +101,13 @@ Original file was backed up to: ".env_1601378896"
 
 All warnings are fixed. Total: 2
 ```
+
+By default, `--fix` creates backups of files. If you want to disable the backup function, use the argument `--no-backup`:
+
+```bash
+$ dotenv-linter -f --no-backup
+.env:2 DuplicatedKey: The BAR key is duplicated
+.env:3 LowercaseKey: The foo key should be in uppercase
+
+All warnings are fixed. Total: 2
+```
