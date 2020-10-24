@@ -1,7 +1,8 @@
 * [👨‍💻Installation](installation.md)
 * [🚀Usage](usage.md)
 * 🎉What's new?
-    * [v2.2.0 (latest)](whats_new/v2_2_0.md)
+    * [v2.2.1 (latest)](whats_new/v221.md)
+    * [v2.2.0](whats_new/v2_2_0.md)
 
 * ✅Checks
 	* [Duplicated Key](checks/duplicated_key.md)
