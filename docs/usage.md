@@ -18,7 +18,7 @@ To check another directory, just pass its path as an argument. The same approach
 
 ```bash
 $ dotenv-linter dir1 dir2/.my-env-file
-Checking dir1/env
+Checking dir1/.env
 dir1/.env:1 LeadingCharacter: Invalid leading character detected
 dir1/.env:3 IncorrectDelimiter: The FOO-BAR key has incorrect delimiter
 
