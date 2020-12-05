@@ -1,6 +1,6 @@
 # Quote character
 
-Detects if a value contains quote characters (`'` / `"`) but skips if the value contains whitespaces:
+Detects if a value contains quote characters (`'` / `"`) but skips if the value contains whitespaces or newline characters:
 
 ```env
 ❌ Wrong
@@ -20,4 +20,7 @@ FOO="BAR BAR"
 
 ✅ Correct
 FOO='BAR BAR'
+
+✅ Correct
+FOO="BAR\nBAR"
 ```
