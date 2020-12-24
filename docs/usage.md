@@ -139,3 +139,5 @@ Found 3 problems
 
 Some tools use `.env` file names but content of these files is not what `dotenv-linter` expects.
 Currently `dotenv-linter` doesn't check `.envrc` files because [direnv](https://direnv.net) uses them as bash scripts.
+
+It is possible to use `export` prefix for defined variables. For example, `export FOO=BAR` will be checked without warnings.
