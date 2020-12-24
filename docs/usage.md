@@ -126,5 +126,16 @@ Fixing .env
 All warnings are fixed. Total: 2
 ```
 
+By default, the output is colored. If you want to disable colored output, you can use the argument `--no-color` :
+
+```bash
+$ dotenv-linter --no-color
+.env:2 DuplicatedKey: The FOO key is duplicated
+.env:3 UnorderedKey: The BAR key should go before the FOO key
+.env.test:1 LeadingCharacter: Invalid leading character detected
+
+Found 3 problems
+```
+
 Some tools use `.env` file names but content of these files is not what `dotenv-linter` expects.
 Currently `dotenv-linter` doesn't check `.envrc` files because [direnv](https://direnv.net) uses them as bash scripts.
