@@ -1,6 +1,6 @@
 # Quote character
 
-Detects if a value contains quote characters (`'` / `"`), skips when there is a multiline value:
+Detects if a value contains quote characters (`'` / `"`) but skips if the value contains whitespaces or newline characters:
 
 ```env
 ❌ Wrong
@@ -17,4 +17,13 @@ FOO="multi\nline"
 
 ✅ Correct
 FOO=BAR
+
+✅ Correct
+FOO="BAR BAR"
+
+✅ Correct
+FOO='BAR BAR'
+
+✅ Correct
+FOO="BAR\nBAR"
 ```
