@@ -20,6 +20,7 @@
 * 🔄Continuous Integration
 	* [CircleCI](ci/circleci.md)
 	* [GitHub Actions](ci/github_actions.md)
+	* [Mega-Linter](ci/mega_linter.md)
 
 * [🤝Contributing](contributing.md)
 * [❤️Sponsors](sponsors.md)
