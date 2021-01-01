@@ -21,6 +21,8 @@
 	* [CircleCI](ci/circleci.md)
 	* [GitHub Actions](ci/github_actions.md)
 	* [Mega-Linter](ci/mega_linter.md)
+	* [Super-Linter](ci/super_linter.md)
 
+* [🚧Benchmark](benchmark.md)
 * [🤝Contributing](contributing.md)
 * [❤️Sponsors](sponsors.md)
