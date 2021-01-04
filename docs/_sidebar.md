@@ -24,5 +24,6 @@
 	* [Super-Linter](ci/super_linter.md)
 
 * [🚧Benchmark](benchmark.md)
+* [✌️Mentorship](mentorship.md)
 * [🤝Contributing](contributing.md)
 * [❤️Sponsors](sponsors.md)
