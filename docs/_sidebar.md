@@ -17,11 +17,12 @@
 	* [Trailing whitespace](checks/trailing_whitespace.md)
 	* [Unordered Key](checks/unordered_key.md)
 
-* 🔄Continuous Integration
-	* [CircleCI](ci/circleci.md)
-	* [GitHub Actions](ci/github_actions.md)
-	* [Mega-Linter](ci/mega_linter.md)
-	* [Super-Linter](ci/super_linter.md)
+* 🔄Integrations
+	* [CircleCI](integrations/circleci.md)
+	* [GitHub Actions](integrations/github_actions.md)
+	* [Mega-Linter](integrations/mega_linter.md)
+	* [Reviewdog](integrations/reviewdog.md)
+	* [Super-Linter](integrations/super_linter.md)
 
 * [🚧Benchmark](benchmark.md)
 * [✌️Mentorship](mentorship.md)
