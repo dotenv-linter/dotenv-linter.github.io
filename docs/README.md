@@ -4,7 +4,9 @@
 
 ---
 
-It checks `.env` files for problems that may cause the application to malfunction:
+Dotenv-linter can [check](/usage/check) / [fix](/usage/fix) / [compare](/usage/compare) `.env` files for problems that may cause the application to malfunction.
+
+**Available checks**:
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/duplicated_key">Duplicated Key</a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/ending_blank_line">Ending Blank Line</a><br />
@@ -18,8 +20,6 @@ It checks `.env` files for problems that may cause the application to malfunctio
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/trailing_whitespace">Trailing whitespace</a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/unordered_key">Unordered Key</a><br />
 </p>
-
-And automatically fixes them all 🛠
 
 **The key features**:
 <p>
