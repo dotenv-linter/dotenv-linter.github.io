@@ -8,11 +8,14 @@ There are several ways to install `dotenv-linter`. Choose a more convenient opti
 # Linux / macOS / Windows (MINGW and etc). Installs it into ./bin/ by default
 $ curl -sSfL https://raw.githubusercontent.com/dotenv-linter/dotenv-linter/master/install.sh | sh -s
 
+# Or more shorter way
+$ curl -sSfL https://git.io/JLbXn | sh -s
+
 # Specify installation directory and version
-$ curl -sSfL https://raw.githubusercontent.com/dotenv-linter/dotenv-linter/master/install.sh | sh -s -- -b usr/local/bin v2.0.0
+$ curl -sSfL https://git.io/JLbXn | sh -s -- -b usr/local/bin v2.0.0
 
 # Alpine Linux (wget)
-$ wget -q -O - https://raw.githubusercontent.com/dotenv-linter/dotenv-linter/master/install.sh | sh -s
+$ wget -q -O - https://git.io/JLbXn | sh -s
 ```
 
 #### Homebrew / Linuxbrew

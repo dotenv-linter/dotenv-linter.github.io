@@ -1,4 +1,4 @@
-## 🚧 Benchmark
+# 🚧 Benchmark
 
 Benchmarking [dotenv-linter/dotenv-linter](https://github.com/dotenv-linter/dotenv-linter) and [wemake-services/dotenv-linter](https://github.com/wemake-services/dotenv-linter) has done using the [hyperfine](https://github.com/sharkdp/hyperfine) utility:
 
