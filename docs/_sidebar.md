@@ -1,7 +1,8 @@
 * [👨‍💻Installation](installation.md)
 
 * 🎉What's new?
-	* [v2.2.1 (latest)](whats_new/v221.md)
+	* v3.0.0 (soon)
+	* [v2.2.1](whats_new/v221.md)
 	* [v2.2.0](whats_new/v2_2_0.md)  
 
 * 🚀Usage
