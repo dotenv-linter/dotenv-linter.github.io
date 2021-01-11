@@ -1,8 +1,13 @@
 * [👨‍💻Installation](installation.md)
-* [🚀Usage](usage.md)
+
 * 🎉What's new?
-    * [v2.2.1 (latest)](whats_new/v221.md)
-    * [v2.2.0](whats_new/v2_2_0.md)
+	* [v2.2.1 (latest)](whats_new/v221.md)
+	* [v2.2.0](whats_new/v2_2_0.md)  
+
+* 🚀Usage
+	* [✅Check](usage/check.md)
+	* [🤲Compare](usage/compare.md)
+	* [🛠Fix](usage/fix.md)
 
 * ✅Checks
 	* [Duplicated Key](checks/duplicated_key.md)
@@ -17,9 +22,14 @@
 	* [Trailing whitespace](checks/trailing_whitespace.md)
 	* [Unordered Key](checks/unordered_key.md)
 
-* 🔄Continuous Integration
-	* [CircleCI](ci/circleci.md)
-	* [GitHub Actions](ci/github_actions.md)
+* 🔄Integrations
+	* [CircleCI](integrations/circleci.md)
+	* [GitHub Actions](integrations/github_actions.md)
+	* [Mega-Linter](integrations/mega_linter.md)
+	* [Reviewdog](integrations/reviewdog.md)
+	* [Super-Linter](integrations/super_linter.md)
 
+* [🚧Benchmark](benchmark.md)
+* [✌️Mentorship](mentorship.md)
 * [🤝Contributing](contributing.md)
 * [❤️Sponsors](sponsors.md)
