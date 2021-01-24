@@ -1,4 +1,4 @@
-# 💡 What is a `.env` file?
+# 💡 What's a `.env` file?
 
 `.env` file or `dotenv` file is a simple text file containing all the environment variables of a project.
 
