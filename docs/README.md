@@ -31,8 +31,10 @@ Dotenv-linter can [check](/usage/check) / [fix](/usage/fix) / [compare](/usage/c
 **Articles about dotenv-linter**:
 * [EN] [Dotenv-linter: looking after the environment for you](https://evrone.com/dotenv-linter?utm_source=github&utm_campaign=dotenv-linter)
 * [EN] [What's new in dotenv-linter v2.2.0?](https://evrone.com/dotenv-linter-v220?utm_source=github&utm_campaign=dotenv-linter)
+* [EN] [What are the key changes in dotenv-linter v3.0.0 release?](https://evrone.com/dotenv-linter-v300?utm_source=github&utm_campaign=dotenv-linter)
 * [RU] [Dotenv-linter: линтер .env файлов](https://www.mgrachev.com/2020/04/20/dotenv-linter)
 * [RU] [Что нового в dotenv-linter v2.2.1?](https://evrone.ru/dotenv-linter-v220?utm_source=github&utm_campaign=dotenv-linter)
+* [RU] [Что нового в dotenv-linter v3.0.0?](https://evrone.ru/dotenv-linter-v300?utm_source=github&utm_campaign=dotenv-linter)
 
 [Dotenv-linter](https://evrone.com/dotenv-linter?utm_source=github&utm_campaign=dotenv-linter) is created & supported by [Evrone](https://evrone.com/?utm_source=github&utm_campaign=dotenv-linter). What else we develop with [Rust](https://evrone.com/rust?utm_source=github&utm_campaign=dotenv-linter).
 

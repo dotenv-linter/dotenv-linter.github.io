@@ -1,5 +1,5 @@
+* [💡What's a .env file?](whats_env.md)
 * [👨‍💻Installation](installation.md)
-* [💡What is a .env file?](whats_env.md)
 
 * 🎉What's new?
 	* [v3.0.0 (latest)](whats_new/v300.md)
