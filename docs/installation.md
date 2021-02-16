@@ -40,6 +40,14 @@ $ trizen -S dotenv-linter-bin
 $ trizen -S dotenv-linter-git
 ```
 
+#### NixOS / Nix
+
+```bash
+
+$ nix-env -iA nixpkgs.dotenv-linter
+
+```
+
 #### Windows / Scoop
 
 ```bash
