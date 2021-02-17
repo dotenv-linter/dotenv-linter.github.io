@@ -56,7 +56,7 @@ $ scoop install dotenv-linter/dotenv-linter
 #### Docker
 
 ```bash
-$ docker run --rm -v `pwd`:/app -w /app dotenvlinter/dotenv-linter
+$ docker run --rm -v `pwd`:/app -w /app dotenvlinter/dotenv-linter <COMMAND> <ARGS>
 ```
 
 #### Cargo
