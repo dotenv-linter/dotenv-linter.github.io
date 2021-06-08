@@ -1,4 +1,4 @@
-# Incorrect delimiter
+# Incorrect Delimiter
 
 Detects if a key does not use an underscore to separate words:
 
