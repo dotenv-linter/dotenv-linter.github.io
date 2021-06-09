@@ -1,4 +1,4 @@
-# Trailing whitespace
+# Trailing Whitespace
 
 Detects if a line has a trailing whitespace:
 

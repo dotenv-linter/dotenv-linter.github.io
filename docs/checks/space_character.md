@@ -1,4 +1,4 @@
-# Space character
+# Space Character
 
 Detects lines with a whitespace around equal sign character `=`:
 

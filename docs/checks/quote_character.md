@@ -1,4 +1,4 @@
-# Quote character
+# Quote Character
 
 Detects if a value contains quote characters (`'` / `"`) but skips if the value contains whitespaces or newline characters:
 
