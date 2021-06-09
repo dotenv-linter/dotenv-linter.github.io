@@ -17,6 +17,7 @@ Dotenv-linter can [check](/usage/check) / [fix](/usage/fix) / [compare](/usage/c
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/lowercase_key">Lowercase key</a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/quote_character">Quote character</a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/space_character">Space character</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/substitution_key">Substitution Key</a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/trailing_whitespace">Trailing whitespace</a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/unordered_key">Unordered Key</a><br />
 </p>

@@ -2,7 +2,8 @@
 * [👨‍💻Installation](installation.md)
 
 * 🎉What's new?
-	* [v3.0.0 (latest)](whats_new/v300.md)
+	* [v3.1.0 (latest)](whats_new/v310.md)
+	* [v3.0.0](whats_new/v300.md)
 	* [v2.2.1](whats_new/v221.md)
 	* [v2.2.0](whats_new/v2_2_0.md)  
 
@@ -21,6 +22,7 @@
 	* [Lowercase Key](checks/lowercase_key.md)
 	* [Quote Character](checks/quote_character.md)
 	* [Space Character](checks/space_character.md)
+	* [Substitution Key](checks/substitution_key.md)
 	* [Trailing whitespace](checks/trailing_whitespace.md)
 	* [Unordered Key](checks/unordered_key.md)
 

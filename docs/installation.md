@@ -40,6 +40,12 @@ $ trizen -S dotenv-linter-bin
 $ trizen -S dotenv-linter-git
 ```
 
+#### NixOS / Nix
+
+```bash
+$ nix-env -iA nixpkgs.dotenv-linter
+```
+
 #### Windows / Scoop
 
 ```bash
@@ -50,7 +56,7 @@ $ scoop install dotenv-linter/dotenv-linter
 #### Docker
 
 ```bash
-$ docker run --rm -v `pwd`:/app -w /app dotenvlinter/dotenv-linter
+$ docker run --rm -v `pwd`:/app -w /app dotenvlinter/dotenv-linter <COMMAND> <ARGS>
 ```
 
 #### Cargo

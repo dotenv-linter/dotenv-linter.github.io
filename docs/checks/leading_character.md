@@ -1,4 +1,4 @@
-# Leading character
+# Leading Character
 
 Detects if a line starts with an unallowed character (characters from `A` to `Z` and `_` (underscore) are allowed):
 
