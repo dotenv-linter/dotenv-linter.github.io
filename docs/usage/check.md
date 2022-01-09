@@ -106,25 +106,6 @@ $ dotenv-linter --no-color
 Found 3 problems
 ```
 
-#### Checklist
-
-If you need to view all available checks, you can use the `list` command (or its short version `l`):
-
-```bash
-$ dotenv-linter list
-DuplicatedKey
-EndingBlankLine
-ExtraBlankLine
-IncorrectDelimiter
-KeyWithoutValue
-LeadingCharacter
-LowercaseKey
-QuoteCharacter
-SpaceCharacter
-TrailingWhitespace
-UnorderedKey
-```
-
 #### Export prefix
 
 It is possible to use `export` prefix for defined variables. For example, `export FOO=BAR` will be checked without warnings.
