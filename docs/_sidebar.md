@@ -12,6 +12,7 @@
     * [✅Check](usage/check.md)
     * [🤲Compare](usage/compare.md)
     * [🛠Fix](usage/fix.md)
+    * [📄List](usage/list.md)
 
 * ✅Checks
     * [Duplicated Key](checks/duplicated_key.md)
