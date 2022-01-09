@@ -106,6 +106,25 @@ $ dotenv-linter --no-color
 Found 3 problems
 ```
 
+#### Check for updates
+
+By default, `dotenv-linter` checks for a new version once a day.
+If the new version is available, it will display information about it:
+
+```bash
+$ dotenv-linter
+.env:2 DuplicatedKey: The FOO key is duplicated
+.env:3 UnorderedKey: The BAR key should go before the FOO key
+.env.test:1 LeadingCharacter: Invalid leading character detected
+
+Found 3 problems
+
+A new release of dotenv-linter is available: v3.1.0 -> v3.1.1
+https://github.com/dotenv-linter/dotenv-linter/releases/tag/v3.1.1
+```
+
+If you want to disable checking for updates, you can use the `--not-check-updates` argument.
+
 #### Export prefix
 
 It is possible to use `export` prefix for defined variables. For example, `export FOO=BAR` will be checked without warnings.
