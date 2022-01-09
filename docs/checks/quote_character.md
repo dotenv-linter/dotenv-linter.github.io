@@ -1,6 +1,6 @@
 # Quote Character
 
-Detects if a value contains quote characters (`'` / `"`) but skips if the value contains whitespaces or newline characters:
+Detects if a value contains quote characters (`'` / `"`) but skips if the value is multi-line, contains whitespaces or newline characters:
 
 ```env
 ❌ Wrong
@@ -13,9 +13,6 @@ FOO='BAR'
 FOO='B"AR'
 
 ✅ Correct
-FOO="multi\nline"
-
-✅ Correct
 FOO=BAR
 
 ✅ Correct
@@ -26,4 +23,9 @@ FOO='BAR BAR'
 
 ✅ Correct
 FOO="BAR\nBAR"
+
+✅ Correct
+MULTILINE='{
+    "key": value
+}'
 ```
