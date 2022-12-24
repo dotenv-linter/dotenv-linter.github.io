@@ -1,4 +1,4 @@
-# Ending Blank Line
+# Ending blank line
 
 Detects if a file doesn't have a blank line at the end:
 

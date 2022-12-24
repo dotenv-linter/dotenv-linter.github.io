@@ -1,6 +1,6 @@
-# Space Character
+# Space character
 
-Detects lines with a whitespace around equal sign character `=`:
+Detects a line with a whitespace around equal sign character `=`:
 
 ```env
 ❌ Wrong

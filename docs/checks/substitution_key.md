@@ -1,4 +1,4 @@
-# Substitution Key
+# Substitution key
 
 Detects if a substitution is not properly performed on key assignment:
 
