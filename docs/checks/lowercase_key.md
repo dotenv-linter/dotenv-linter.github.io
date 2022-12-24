@@ -1,4 +1,4 @@
-# Lowercase Key
+# Lowercase key
 
 Detects if a key has lowercase characters:
 

@@ -1,4 +1,4 @@
-# Key Without Value
+# Key without value
 
 Detects if a line has a key without a value:
 
