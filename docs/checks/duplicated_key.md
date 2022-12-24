@@ -1,4 +1,4 @@
-# Duplicated Key
+# Duplicated key
 
 Detects if a key is not unique:
 

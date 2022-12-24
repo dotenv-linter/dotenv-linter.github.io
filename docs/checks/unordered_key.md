@@ -1,4 +1,4 @@
-# Unordered Key
+# Unordered key
 
 Detects if a key is not alphabetically ordered:
 

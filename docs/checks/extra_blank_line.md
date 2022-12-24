@@ -1,4 +1,4 @@
-# Extra Blank Line
+# Extra blank line
 
 Detects if a file contains more than one blank line in a row:
 
