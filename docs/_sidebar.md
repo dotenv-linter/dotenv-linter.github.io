@@ -2,7 +2,8 @@
 * [👨‍💻 Installation](installation.md)
 
 * 🎉 What's new?
-    * [v3.3.0 (latest)](whats_new/v330.md)
+    * [v3.3.1 (latest)](whats_new/v331.md)
+    * [v3.3.0](whats_new/v330.md)
     * [v3.2.0](whats_new/v320.md)
     * [v3.1.1](whats_new/v311.md)
     * [v3.1.0](whats_new/v310.md)
