@@ -26,6 +26,26 @@ Fixing .env
 All warnings are fixed. Total: 2
 ```
 
+#### Dry run
+
+If you want to run `fix` without modifying any files on disk, use the `--dry-run` flag.
+
+```bash
+$ dotenv-linter fix --dry-run
+Fixing .env
+Dry run - not changing any files on disk.
+
+BAR=bar_example_one
+# BAR=bar_example_two
+FOO=foo_example
+
+
+.env:2 DuplicatedKey: The BAR key is duplicated
+.env:3 LowercaseKey: The foo key should be in uppercase
+
+All warnings are fixed. Total: 2
+```
+
 #### Addition arguments
 
 In addition, the `fix` command supports the following list of arguments:
