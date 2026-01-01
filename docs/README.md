@@ -4,7 +4,7 @@
 
 ---
 
-Dotenv-linter can [check](/usage/check) / [fix](/usage/fix) / [compare](/usage/compare) `.env` files for problems that may cause the application to malfunction.
+Dotenv-linter can [check](/usage/check) / [fix](/usage/fix) / [diff](/usage/diff) `.env` files for problems that may cause the application to malfunction.
 
 **Available checks**:
 <p>
@@ -16,6 +16,7 @@ Dotenv-linter can [check](/usage/check) / [fix](/usage/fix) / [compare](/usage/c
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/leading_character">Leading character</a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/lowercase_key">Lowercase key</a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/quote_character">Quote character</a><br />
+&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/schema_violation">Schema violation</a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/space_character">Space character</a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/substitution_key">Substitution key</a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;<a href="#/checks/trailing_whitespace">Trailing whitespace</a><br />
