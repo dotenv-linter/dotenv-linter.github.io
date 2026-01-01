@@ -1,9 +1,9 @@
 # ✅ Check
 
-By default, `dotenv-linter` checks all `.env` files in the current directory:
+`dotenv-linter` can check all `.env` files in a directory:
 
 ```bash
-$ dotenv-linter
+$ dotenv-linter check .
 Checking .env
 .env:2 DuplicatedKey: The FOO key is duplicated
 .env:3 UnorderedKey: The BAR key should go before the FOO key
@@ -17,7 +17,7 @@ Found 3 problems
 To check another directory, just pass its path as an argument. The same approach works if you need to check any files individually:
 
 ```bash
-$ dotenv-linter dir1 dir2/.my-env-file
+$ dotenv-linter check dir1 dir2/.my-env-file
 Checking dir1/.env
 dir1/.env:1 LeadingCharacter: Invalid leading character detected
 dir1/.env:3 IncorrectDelimiter: The FOO-BAR key has incorrect delimiter
@@ -33,7 +33,7 @@ Found 3 problems
 If you need to exclude a file from check, you can use the `--exclude FILE_PATH` argument (or its short version `-e`):
 
 ```bash
-$ dotenv-linter --exclude .env.test
+$ dotenv-linter check --exclude .env.test .
 Checking .env
 .env:2 DuplicatedKey: The FOO key is duplicated
 .env:3 UnorderedKey: The BAR key should go before the FOO key
@@ -46,7 +46,7 @@ Found 2 problems
 If you need a recursive search inside directories (deeper than 1 level), you can use the `--recursive` argument (or its short version `-r`):
 
 ```bash
-$ dotenv-linter --recursive
+$ dotenv-linter check --recursive .
 Checking .env
 Checking dir1/.env
 dir1/.env:2 DuplicatedKey: The FOO key is duplicated
@@ -57,12 +57,12 @@ dir2/subdir/.env:3 IncorrectDelimiter: The FOO-BAR key has incorrect delimiter
 Found 2 problems
 ```
 
-#### Skip checks
+#### Ignore checks
 
-If you need to skip some checks, you can use the `--skip CHECK_NAME` argument (or its short version `-s`):
+If you need to ignore some checks, you can use the `--ignore-checks CHECK_NAME` argument (or its short version `-i`):
 
 ```bash
-$ dotenv-linter --skip UnorderedKey EndingBlankLine
+$ dotenv-linter check --ignore-checks UnorderedKey,EndingBlankLine .
 Checking .env
 .env:2 DuplicatedKey: The FOO key is duplicated
 
@@ -87,7 +87,7 @@ BAR=FOO
 If you want to see only warnings without additional information, use the `--quiet` argument (or its short version `-q`):
 
 ```bash
-$ dotenv-linter --quiet
+$ dotenv-linter check --quiet .
 .env:2 DuplicatedKey: The FOO key is duplicated
 .env:3 UnorderedKey: The BAR key should go before the FOO key
 .env.test:1 LeadingCharacter: Invalid leading character detected
@@ -95,10 +95,10 @@ $ dotenv-linter --quiet
 
 #### Disable colored output
 
-By default, the output is colored. If you want to disable colored output, you can use the `--no-color` argument:
+By default, the output is colored. If you want to disable colored output, you can use the `--plain` argument:
 
 ```bash
-$ dotenv-linter --no-color
+$ dotenv-linter check --plain .
 .env:2 DuplicatedKey: The FOO key is duplicated
 .env:3 UnorderedKey: The BAR key should go before the FOO key
 .env.test:1 LeadingCharacter: Invalid leading character detected
@@ -112,7 +112,7 @@ By default, `dotenv-linter` checks for a new version once a day.
 If the new version is available, it will display information about it:
 
 ```bash
-$ dotenv-linter
+$ dotenv-linter check .
 .env:2 DuplicatedKey: The FOO key is duplicated
 .env:3 UnorderedKey: The BAR key should go before the FOO key
 .env.test:1 LeadingCharacter: Invalid leading character detected
@@ -123,7 +123,7 @@ A new release of dotenv-linter is available: v3.1.0 -> v3.1.1
 https://github.com/dotenv-linter/dotenv-linter/releases/tag/v3.1.1
 ```
 
-If you want to disable checking for updates, you can use the `--not-check-updates` argument.
+If you want to disable checking for updates, you can use the `--skip-updates` argument.
 
 #### Export prefix
 
@@ -133,3 +133,17 @@ It is possible to use `export` prefix for defined variables. For example, `expor
 
 Some tools use `.env` file names but content of these files is not what `dotenv-linter` expects.<br/>
 Currently `dotenv-linter` doesn't check `.envrc` files because [direnv](https://direnv.net) uses them as bash scripts.
+
+#### Environment variables
+
+Some settings can be controlled via environment variables.
+
+* `DOTENV_LINTER_IGNORE_CHECKS` - disables checks (multiple checks are specified separated by commas):
+```bash
+$ DOTENV_LINTER_IGNORE_CHECKS=QuoteCharacter dotenv-linter check .
+```
+
+* `DOTENV_LINTER_SKIP_UPDATES` - disables checking for updates:
+```bash
+$ DOTENV_LINTER_SKIP_UPDATES=true dotenv-linter check .
+```

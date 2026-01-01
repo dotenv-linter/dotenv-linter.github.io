@@ -2,7 +2,8 @@
 * [👨‍💻 Installation](installation.md)
 
 * 🎉 What's new?
-    * [v3.3.1 (latest)](whats_new/v331.md)
+    * [v4.0.0 (latest)](whats_new/v400.md)
+    * [v3.3.1](whats_new/v331.md)
     * [v3.3.0](whats_new/v330.md)
     * [v3.2.0](whats_new/v320.md)
     * [v3.1.1](whats_new/v311.md)
@@ -13,9 +14,8 @@
 
 * 🚀 Usage
     * [✅ Check](usage/check.md)
-    * [🤲 Compare](usage/compare.md)
+    * [🤲 Diff](usage/diff.md)
     * [🛠 Fix](usage/fix.md)
-    * [📄 List](usage/list.md)
 
 * ✅ Checks
     * [Duplicated key](checks/duplicated_key.md)
@@ -26,6 +26,7 @@
     * [Leading character](checks/leading_character.md)
     * [Lowercase key](checks/lowercase_key.md)
     * [Quote character](checks/quote_character.md)
+    * [Schema violation](checks/schema_violation.md)
     * [Space character](checks/space_character.md)
     * [Substitution key](checks/substitution_key.md)
     * [Trailing whitespace](checks/trailing_whitespace.md)
